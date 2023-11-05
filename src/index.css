@@ -7,3 +7,34 @@ body{
     margin: 0;
     background: #f9f9f9;
 }
+textarea{
+    resize: none;
+}
+.Sub{
+    margin-right:100px ;
+    margin-left: 100px;
+    width: 125px;
+
+}
+.Prec{
+    margin-left: 100px;
+    width: 125px;
+}
+.p1{
+    font-family: monospace;
+}
+#Diplomation{
+    margin-right:0;
+}
+#EntryDate{
+    margin-left: 0;
+}
+#Dipl{
+    margin-right: 40px;
+}
+#EntryDate{
+    margin-left: 0px;
+}
+
+
+

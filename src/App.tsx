@@ -1,16 +1,16 @@
 
-import './App.css'
+import './App.css';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { FORME } from './screen/form';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {NextPage} from './screen/form2';
+import { FORM2 } from './screen/form2';
 
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<FORME />} />
-        <Route path="/next-page" element={<NextPage />} />
+        <Route path="Deploy-react" element={<FORME />} />
+        <Route path="/form2" element={<FORM2 />} />
       </Routes>
     </Router>
   );
